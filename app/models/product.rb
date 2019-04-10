@@ -12,6 +12,7 @@
 #
 
 class Product < ApplicationRecord
+    include Hashid::Rails
     mount_uploader :image, ImageUploader
     extend Enumerize
     enumerize :unit, in: [:yen, :usd]

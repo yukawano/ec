@@ -3,6 +3,7 @@
   .row
     - @products.each do |product|
       .col.s12.m6
+      = link_to product do
         .card
           .card-image
             - if product.image.present?
@@ -12,4 +13,6 @@
           .card-content
             %p
               = product.description
+            -#.card-action
++            -#  %a{:href => "#"} This is a link
 

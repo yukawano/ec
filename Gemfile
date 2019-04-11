@@ -24,6 +24,9 @@ gem 'enumerize'
 gem 'jquery-rails'
 gem 'carrierwave', '~> 1.0'
 gem 'hashid-rails', '~> 1.0'
+gem 'bootstrap'
+gem 'materialize-sass', '~> 1.0.0'
+gem 'material_icons'
 
 # Use CoffeeScript for .coffee assets and views
 gem 'coffee-rails', '~> 4.2'
